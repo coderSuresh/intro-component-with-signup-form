@@ -1,0 +1,68 @@
+@media (max-width: 1160px) {
+    body {
+        width: 90%;
+    }
+}
+
+@media (max-width: 960px) {
+    body {
+        width: 95%;
+    }
+
+    .main-title {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 786px) {
+    body {
+        background: url('/images/bg-intro-mobile.png') no-repeat center center/cover $red;
+    }
+    main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left {
+        margin-right: 0;
+    }
+
+    .desc {
+        margin-bottom: 30px;
+    }
+
+    .left,
+    .right {
+        width: 90%;
+    }
+}
+
+@media (max-width: 375px) {
+    .main-title {
+        font-size: 28px;
+    }
+
+    .desc,
+    .try-title,
+    .terms, .right-align {
+        font-size: 12px;
+    }
+
+    .form-container form {
+        input {
+            padding: 10px 15px;
+        }
+    }
+}
+
+@media (max-width: 277px) {
+    body {
+        width: 95%;
+    }
+    .left,.right {
+        width: 100%;
+    }
+    .form-container {
+        padding: 5px 10px 20px 10px;
+    }
+}
